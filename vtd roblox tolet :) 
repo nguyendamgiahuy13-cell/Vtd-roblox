@@ -967,7 +967,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.Position = UDim2.new(0, 352, 0, 4)
         ImageButton.Size = UDim2.new(0, 23, 0, 23)
         ImageButton.ZIndex = 2
-        ImageButton.Image = "rbxassetid://3926311105"
+        ImageButton.Image = "rbxassetid://90912080224117"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
         ImageButton.ImageRectOffset = Vector2.new(940, 784)
         ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -1085,7 +1085,7 @@ function Update:Window(text,logo,keybind)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://6031090990"
+        DropImage.Image = "rbxassetid://90912080224117"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
@@ -10782,7 +10782,7 @@ tween:Play()
 
 local SoundSFX = Instance.new("Sound")
 SoundSFX.Parent = workspace
-SoundSFX.SoundId = "rbxassetid://1904813041"
+SoundSFX.SoundId = "rbxassetid://90912080224117"
 SoundSFX:Play()
 SoundSFX.Name = "POwfpxzxzfFfFF"
 game:GetService("Workspace").Map["Temple of Time"].Lever.Prompt:FindFirstChild("ProximityPrompt"):Remove()
@@ -13628,7 +13628,7 @@ Misc:AddButton("Kaitun Cap", function(value)
 		for k,v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"..v,true) == 1 then 
 				local huhu = Instance.new("ImageLabel",MeleeG)
-				huhu.Image = "rbxassetid://9945562382"
+				huhu.Image = "rbxassetid://90912080224117"
 				huhu.ImageRectSize = Vector2.new(100,100)
 				huhu.ImageRectOffset = ListHuhu[v]*100
 			end
